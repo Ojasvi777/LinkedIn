@@ -1,0 +1,220 @@
+.profile-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f8fa;
+  color: #333;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.open-to-work {
+  color: green;
+  font-weight: 600;
+}
+
+.visibility-status {
+  text-align: right;
+}
+
+.visibility-status button {
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.bar {
+  background: #eee;
+  height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.bar .fill {
+  background: #6C63FF;
+  height: 100%;
+}
+
+.tags {
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.complete {
+  color: green;
+}
+
+.incomplete {
+  color: red;
+}
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.section {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.skills {
+  margin: 1rem 0;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #e2e8f0;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.upload-btn {
+  background-color: #6C63FF;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.score {
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+
+.score-breakdown {
+  background: transparent;
+  color: #6C63FF;
+  border: none;
+  cursor: pointer;
+}
+
+.status {
+  float: right;
+  font-weight: bold;
+}
+
+.status.interview {
+  color: orange;
+}
+
+.status.submitted {
+  color: gray;
+}
+
+.status.hired {
+  color: green;
+}
+
+.footer-banner {
+  margin-top: 2rem;
+  background: #6C63FF;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-banner button {
+  background: white;
+  color: #6C63FF;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+/* Ensure container spans full width */
+.profile-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Main content uses full width and avoids overflow */
+.main-content {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Flex children take full width each */
+.left {
+  flex: 2;
+  min-width: 0;
+}
+
+.right {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Prevent overflow due to fixed widths or large elements */
+.card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Body or html tag should prevent overflow */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

@@ -1,0 +1,174 @@
+/* lp.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f9fc;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  background: linear-gradient(to right, #f8f9fc, #e7efff);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #2d2e32;
+}
+
+.hero-text span {
+  color: #6C63FF;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}
+
+.primary {
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #5a54d1;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #6C63FF;
+  color: #6C63FF;
+}
+
+.secondary:hover {
+  background: #eae8ff;
+}
+
+/* Hero Image */
+.hero-img img {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Features */
+.features-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #f1f3f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Architecture */
+.architecture {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #e8f0ff;
+}
+
+.tech-stack {
+  margin-top: 1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #f8f9fc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* CTA */
+.cta-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(90deg, #6C63FF, #7b82f0);
+  color: white;
+  text-align: center;
+}
+
+.cta-form {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-form input {
+  padding: 0.8rem;
+  width: 280px;
+  border: none;
+  border-radius: 6px;
+}
+
+.cta-form button {
+  background-color: #fff;
+  color: #6C63FF;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-form button:hover {
+  background-color: #f1f1ff;
+}

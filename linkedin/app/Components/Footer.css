@@ -1,0 +1,26 @@
+.footer {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.col h4 {
+  margin-bottom: 1rem;
+}
+
+.col p {
+  margin: 0.3rem 0;
+}
+
+footer p:last-child {
+  color: #aaa;
+  font-size: 0.85rem;
+}
