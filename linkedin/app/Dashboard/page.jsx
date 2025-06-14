@@ -3,12 +3,10 @@
 
 import React from "react";
 import "./profile2.css";
-import Navbar from "../Components/Navbar"
-import Footer from "../Components/Footer"
+
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
-      <Navbar/>
       <aside className="sidebar">
         <h3>TechCorp Inc.</h3>
         <p>Sarah Johnson</p>
@@ -114,7 +112,6 @@ const Dashboard = () => {
           </section>
         </div>
       </main>
-      <Footer/>
     </div>
   );
 };
