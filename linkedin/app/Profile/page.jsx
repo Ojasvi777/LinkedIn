@@ -1,10 +1,13 @@
 "use client";
 import React from 'react';
 import './profile.css';
+import Navbar from "../Components/Navbar"
+import Footer from "../Components/Footer"
 
 export default function Profile() {
   return (
     <div className="profile-container">
+      <Navbar/>
       <div className="profile-header">
         <img className="profile-img" src="/user-avatar.png" alt="User" />
         <div>
@@ -94,6 +97,7 @@ export default function Profile() {
         <p>🎉 Good news! 3 new job matches found based on your updated resume.</p>
         <button>View Jobs</button>
       </div>
+       <Footer/>
     </div>
   );
 }
